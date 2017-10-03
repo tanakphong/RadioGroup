@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?appbk"
+    tools:context="com.wesoft.radiogroup.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        style="?textTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the size of the text"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginTop="64dp" />
+    <TextView
+        android:id="@+id/body"
+        style="?textBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/title"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/title"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+</android.support.constraint.ConstraintLayout>

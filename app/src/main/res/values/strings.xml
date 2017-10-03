@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RadioGroup</string>
+    <string name="rdo1">Radio1</string>
+    <string name="rdo2">Radio2</string>
+    <string name="rdo3">Radio3</string>
+    <string name="rdo4">Radio4</string>
+    <string name="message">Message Dummy.</string>
+</resources>
